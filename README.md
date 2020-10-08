@@ -22,7 +22,7 @@ optional arguments:
 
 `python3.8 secretsdump.py <DOMAIN_NAME>/<USERNAME_OF_DOMAIN_ADMIN>@<SPECIFIC_DC_FQDN> -just-dc-ntlm -k | python3.8 find_weak_users.py --stdin --nthash-file <LOCATION_OF_LEAKED_PASSWORD_TXT_FILE> --export-xlsx <REPORT_XLSX_FILE>`
 
-##### if you can resolve the FQDN to ip you can specify it directly
+##### if you can't resolve the FQDN to ip you can specify it directly
 
 `python3.8 secretsdump.py <DOMAIN_NAME>/<USERNAME_OF_DOMAIN_ADMIN>@<SPECIFIC_DC_FQDN> -just-dc-ntlm -k -target-ip <DC_IP> -dc-ip <DC_IP> | python3.8 find_weak_users.py --stdin --nthash-file <LOCATION_OF_LEAKED_PASSWORD_TXT_FILE> --export-xlsx <REPORT_XLSX_FILE>`
 
