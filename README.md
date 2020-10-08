@@ -35,11 +35,7 @@ optional arguments:
 
 find_weak_users.py was tested on python3.8 and uses tqdm and xlsxwriter modules
 
-install using pip
-
-`pip3 install tqdm xlsxwriter`
-
-OR install using the requirements.txt file
+install using the requirements.txt file
 
 `pip3 install -r requirements.txt`
 
@@ -76,14 +72,3 @@ secretsdump.py is a very nice script from the [impacket](https://github.com/Secu
 #### get secretsdump.py
 
 after installing impacket, secretdump.py should be mapped to your path but if not, you can download it from https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py
-### hashcat
-
-hashcat is a format many other tools that extract ntds hashes use.
-#### DSinternals
-
-a powershell module allowing the extraction of ntds hashes
-
-https://www.dsinternals.com/en/dumping-ntds-dit-files-using-powershell/
-#### Other methods
-
-https://pentestlab.blog/tag/ntds-dit/
